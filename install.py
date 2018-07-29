@@ -45,7 +45,8 @@ os.system("pip install socket")
 os.system("pip install socks")
 os.system("pip install time")
 os.system("pip install random")
-os.system("pip2 install datetime")
+os.system("pip install datetime")
+os.system("pip install subprocess")
 
 import datetime
 import time
