@@ -81,7 +81,7 @@ if script == "2" :
 
 
 if script == "1" :
-	ip = input(LB+'ENT3R T@RGET : ')
+	ip = raw_input(LB+'ENT3R T@RGET : ')
 
 	hostip = socket.gethostbyname(ip)
 
