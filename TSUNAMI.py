@@ -97,7 +97,7 @@ if script == "1" :
 			sock.sendto(bytes, (ip,port))
     		sent = sent + 1
     		port = port + 1
-    		print R+">>> Sent %s packets to %s throught port:%s"%(sent,ip,port)
+    		print R+"Sent %s bytes to %s throught port:%s"%(sent,ip,port)
     		if port == 65534:
 			port = 1
 
