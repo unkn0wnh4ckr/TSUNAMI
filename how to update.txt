@@ -1,0 +1,12 @@
+just follow these steps to update
+i tried to make a file
+in this script
+to do this automaticly
+but it didnt work
+so type this :
+
+cd
+
+rm -fr TSUNAMI
+
+git clone https://github.com/unkn0wnh4ckr/TSUNAMI
