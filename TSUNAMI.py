@@ -83,7 +83,7 @@ if script == "2" :
 if script == "1" :
 	ip = raw_input(LB+'ENT3R T@RGET : ')
 
-	hostip = socket.gethostbyname(dos)
+	hostip = socket.gethostbyname(ip)
 
 	print G+"TARGET HOST", ip
 	print "TARGET IP :", hostip
