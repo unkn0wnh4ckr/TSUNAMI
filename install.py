@@ -48,7 +48,7 @@ os.system("pip install random")
 os.system("pip install datetime")
 os.system("pip install subprocess")
 
-import datetime
+from datetime import datetime
 import time
 
 print G+"install complete"
