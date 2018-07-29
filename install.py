@@ -27,6 +27,20 @@ print """
 """
 
 print G+"installing requirments..."
+
+time.sleep(1)
+print "-----  0%"
+time.sleep(1)
+print "#----  20%"
+time.sleep(1)
+print "##---  40%"
+time.sleep(2)
+print "###--  60%"
+time.sleep(2)
+print "###--   80%"
+time.sleep(2.5)
+print "#####  100%"
+
 os.system("pip install socket")
 os.system("pip install socks")
 os.system("pip install time")
