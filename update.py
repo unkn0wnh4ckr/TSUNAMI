@@ -23,10 +23,7 @@ print G+"updating TSUNAMI"
 print N+"update started on {0}.{1} | {2}-{3}-{4}".format(hour, minute, day, month, year)
 time.sleep(2)
 
-os.system("rm TSUNAMI.py")
-os.system("rm install.py")
-os.system("rm README.md")
-os.system("rm update.py")
+os.system("cd")
 os.system("rm -fr TSUNAMI")
 
 time.sleep(1)
