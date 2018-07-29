@@ -81,7 +81,7 @@ if script == "2" :
 
 
 if script == "1" :
-	ip = raw_input(LB+'ENT3R T@RGET : ')
+	ip = input(LB+'ENT3R T@RGET : ')
 
 	hostip = socket.gethostbyname(ip)
 
@@ -91,7 +91,6 @@ if script == "1" :
 	choice = raw_input(Y+'continue with this host? [y/n] : ')
 	if choice == "n" : sys.exit()
 	if choice == "y" :
-		ip = raw_input(LB+'ENT3R T@RGET AG41N : ')
 		port = input(LB+'> ENT3R P0RT : ')
 		print N+"UDP attack started on {0}.{1} | {2}-{3}-{4}".format(hour, minute, day, month, year)
 		time.sleep(3)
