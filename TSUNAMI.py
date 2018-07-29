@@ -81,12 +81,12 @@ if script == "2" :
 
 
 if script == "1" :
-	dos = raw_input(LB+'ENT3R T@RGET : ')
+	ip = raw_input(LB+'ENT3R T@RGET : ')
 
-	ip = socket.gethostbyname(dos)
+	hostip = socket.gethostbyname(dos)
 
-	print G+"TARGET HOST", dos
-	print "TARGET IP :", ip
+	print G+"TARGET HOST", ip
+	print "TARGET IP :", hostip
 
 	choice = raw_input(Y+'continue with this host? [y/n] : ')
 	if choice == "n" : sys.exit()
