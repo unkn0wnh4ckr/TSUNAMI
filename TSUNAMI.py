@@ -33,7 +33,7 @@ none_ascii = '''
                                                               
 '''
 
-print G+(none_ascii.decode('utf-8'))
+print R+(none_ascii.decode('utf-8'))
 
 print N+"""
 1: UDP flood
