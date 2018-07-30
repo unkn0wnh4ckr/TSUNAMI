@@ -12,7 +12,7 @@ LB = '\033[1;36m'
 
 
 
-
+import time
 import os
 import sys
 
@@ -43,13 +43,10 @@ print "#####  100%"
 
 os.system("pip install socket")
 os.system("pip install socks")
-os.system("pip install time")
 os.system("pip install random")
 os.system("pip install datetime")
 os.system("pip install subprocess")
-
 from datetime import datetime
-import time
 
 print G+"install complete"
 print Y+"EXITING INSTALLER.."
