@@ -23,7 +23,7 @@ Y = '\033[33m'
 LB = '\033[1;36m'
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
+bytes = random._urandom(10000)
 none_ascii = '''
 
 ████████╗███████╗██╗   ██╗███╗   ██╗ █████╗ ███╗   ███╗██╗    
